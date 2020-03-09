@@ -31,7 +31,7 @@ public class PredictorController {
     }
 
     @GetMapping ("/predictions")
-    public String predictByPicURL(Model mav, @RequestParam String pictureURL){
+    public String predictByPicURL(Model mav, @RequestParam String pictureURL) throws Exception {
 
         logger.info("searching for predictions. picture url: " + pictureURL);
 

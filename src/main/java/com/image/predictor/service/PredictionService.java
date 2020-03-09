@@ -44,7 +44,7 @@ public class PredictionService {
         }
     }
 
-    public List<Prediction> getPredictionsLoadedImg(String imgUrl) {
+    public List<Prediction> getPredictionsLoadedImg(String imgUrl) throws Exception {
         List<Prediction> predictionList = new ArrayList<>();
         for(Image img : imageRepository.findAll()){
             if (img.getImgUrl().equals(imgUrl)){
@@ -53,8 +53,24 @@ public class PredictionService {
                 break;
             }
         }
+        return translateNames(predictionList);
+    }
+
+    public List<Prediction> translateNames (List<Prediction> predictionList) throws Exception {
+
+        for (int i = 0; i < predictionList.size(); i++){
+            predictionList.get(i)
+                    .setPredictionName(
+                    Translator.translate(
+                    predictionList
+                    .get(i).getPredictionName())
+                     );
+        }
+        logger.info("translation is finished");
         return predictionList;
     }
+
+
 
 
 
