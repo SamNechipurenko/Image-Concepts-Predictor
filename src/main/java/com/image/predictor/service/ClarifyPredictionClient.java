@@ -4,7 +4,6 @@ import clarifai2.api.ClarifaiBuilder;
 import clarifai2.api.ClarifaiClient;
 import clarifai2.dto.input.ClarifaiInput;
 import clarifai2.dto.prediction.Concept;
-import com.image.predictor.controller.PredictorController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
