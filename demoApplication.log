@@ -1,0 +1,18 @@
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - Couldn't find template in cache for "welcomePage.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage_ru_RU.ftl"): Not found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage_ru.ftl"): Not found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage.ftl"): Found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - Loading template for "welcomePage.ftl"("ru_RU", UTF-8, parsed) from "C:\\Users\\USER\\IdeaProjects\\predictor\\target\\classes\\templates\\welcomePage.ftl"
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - "welcomePage.ftl"("ru_RU", UTF-8, parsed) cached copy not yet stale; using cached.
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - Couldn't find template in cache for "welcomePage.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage_ru_RU.ftl"): Not found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage_ru.ftl"): Not found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage.ftl"): Found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - Loading template for "welcomePage.ftl"("ru_RU", UTF-8, parsed) from "C:\\Users\\USER\\IdeaProjects\\predictor\\target\\classes\\templates\\welcomePage.ftl"
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - "welcomePage.ftl"("ru_RU", UTF-8, parsed) cached copy not yet stale; using cached.
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - Couldn't find template in cache for "welcomePage.ftl"("ru_RU", UTF-8, parsed); will try to load it.
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage_ru_RU.ftl"): Not found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage_ru.ftl"): Not found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("welcomePage.ftl"): Found
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - Loading template for "welcomePage.ftl"("ru_RU", UTF-8, parsed) from "C:\\Users\\USER\\IdeaProjects\\predictor\\target\\classes\\templates\\welcomePage.ftl"
+[http-nio-8080-exec-1] DEBUG freemarker.cache  - "welcomePage.ftl"("ru_RU", UTF-8, parsed) cached copy not yet stale; using cached.
